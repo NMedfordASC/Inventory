@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="Homepage/HomePage.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"
+        defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"
+        defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"
+        defer></script>
+    <link href="Homepage/HomePage.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Inventory Genie</title>
+
+</head>
+
+<body id="bod">
+    <nav id="topbar">
+        <img id="logo" src="https://files.slack.com/files-pri/TL898QNC8-FM9TM6WB0/invengeniepng.png">
+        <a href="itemsPage.html" target="_blank">
+            <h1>Items</h1>
+        </a>
+        <a href="profilepage.html" target="_blank">
+            <h1>Profile</h1>
+        </a>
+        <a href="#c4">
+            <h1 >Contact Us</h1>
+        </a>
+        <div class="searchbar">
+            <input placeholder="Search">
+            <button type="button" class="btn btn-light">Submit</button>
+        </div>
+        <a href="registry.html" target="_blank">
+        <button type="button" class="btn btn-light" id="button">Add Item</button>
+        </a>
+    </nav>
+    <main>
+        <div id="uno">
+            <p class="uno-font">Inventory Genie </p>
+            <h2 class="marquee"><marquee>"Let's get organized!"</marquee></h2>
+        </div>
+        <!-- <div  id="dos"><p>"Let's get organized!"</p></div> -->
+    </main>
+    <div id="about">
+        <h1>About Us!</h1>
+        <p><em>
+        Inventory Genie is Inventory and Storage management web application, targeted at smaller businesses and establishes that
+        can't afford or don't really have access to expensive online databases and custom made websites. Most apps with the same
+        idea as our product cater to companies past a 1 million dollar revenue mark, so at Inventory Genie we offer much more
+        practical rates for establishments below that mark. Inventory Genie allows for easy and intuitive access to data with
+        its box based interface and competent UI. This program will allow users to add in the products they have along with the
+        amount and some custom attributes like expiration dates, retail prices, and product codes. Products may also be marked
+        missing and sold. Optionally, this application can be run off an online database at higher rates opening up new features
+        like checking inventory from anywhere you have a WiFi connection or integration for all the computers in your
+        establishment continuously linked with the cloud. We also intend to add in an automated graphic creator which will
+        create graphs and charts (of your choosing) to display information on the general use of different item over time,
+        revenue culminated and company costs.</em></p>
+    </div>
+        <footer>
+            <div id="c4" class="contact-form">
+                    <h1 style="text-shadow: 2px 2px 8px black;">Contact Us</h1>
+                    <div class="nameemail">
+                        <div class="textb">
+                      <label class="label">Name: </label>
+                      <input class="erase" type="text" placeholder="Full Name">
+                    </div>
+                    <div class="textb">
+                      <label class="label" >Email: </label>
+                      <input class="erase" type="email" placeholder="example@gmail.com">
+                    </div>
+                </div>
+                <div class="phonemessage">
+                    <div class="textb">
+                      <label class="label">Phone: </label>
+                      <input class="erase" type="text" placeholder="Example: 555-555-5555">
+                    </div>
+                    <div class="textb">
+                      <label class="label">Message:</label>
+                      <textarea class="erase"></textarea>
+                    </div>
+                </div>
+                    <!-- <a class="send"><p>Send</p></a> -->
+                    <a><button type="button" class=" send btn btn-light">Send</button></a>
+                    
+                </div>
+        </footer>
+</body>
+
+</html>
